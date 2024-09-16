@@ -1,0 +1,2617 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 24394 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/MasterGameancienTeam
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+23446
+Successfully changed project path to: C:/MasterGameancienTeam
+C:/MasterGameancienTeam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7044] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 453006277 [EditorId] 453006277 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5350O11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7044] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 453006277 [EditorId] 453006277 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5350O11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 18.99 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MasterGameancienTeam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5599
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013662 seconds.
+- Loaded All Assemblies, in  0.431 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 310 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (466ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.216 seconds
+Refreshing native plugins compatible for Editor in 9.04 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.687 seconds
+Domain Reload Profiling: 2897ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (942ms)
+		LoadAssemblies (616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (425ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (317ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (929ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 10.08 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (2.1 MB). Loaded Objects now: 7973.
+Memory consumption went from 321.0 MB to 318.9 MB.
+Total: 6.512500 ms (FindLiveObjects: 0.613900 ms CreateObjectMapping: 0.743900 ms MarkObjects: 4.438700 ms  DeleteObjects: 0.715200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 10.33 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.904 seconds
+Domain Reload Profiling: 3881ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2905ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (1177ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 17.23 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 7991.
+Memory consumption went from 268.5 MB to 266.4 MB.
+Total: 7.419900 ms (FindLiveObjects: 0.731000 ms CreateObjectMapping: 0.833200 ms MarkObjects: 4.912500 ms  DeleteObjects: 0.942300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 354204.397428 seconds.
+  path: Assets/AtmosphericHouse/Scripts
+  artifactKey: Guid(cafbf5594f345fa4fa2cb0097cc01536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts using Guid(cafbf5594f345fa4fa2cb0097cc01536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094b1afc39d73b3c66ecc0761da360d') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.616398 seconds.
+  path: Assets/AtmosphericHouse/Scripts/SecondDVDObject.cs
+  artifactKey: Guid(5f07895a4d2096146aeefa701cf4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/SecondDVDObject.cs using Guid(5f07895a4d2096146aeefa701cf4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbee55b06e7af19efa23d89faadfc94') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.931 seconds
+Refreshing native plugins compatible for Editor in 9.98 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.522 seconds
+Domain Reload Profiling: 3445ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (612ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (911ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 12.07 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8008.
+Memory consumption went from 270.5 MB to 268.4 MB.
+Total: 7.308300 ms (FindLiveObjects: 0.677300 ms CreateObjectMapping: 0.802200 ms MarkObjects: 4.933200 ms  DeleteObjects: 0.894300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 183.147619 seconds.
+  path: Assets/AtmosphericHouse/Scripts/SecondDVDObject.cs
+  artifactKey: Guid(5f07895a4d2096146aeefa701cf4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/SecondDVDObject.cs using Guid(5f07895a4d2096146aeefa701cf4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65cb4506dcde35347ed91db8b4e4ec6') in 0.015064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 10.27 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.1 MB). Loaded Objects now: 8008.
+Memory consumption went from 156.4 MB to 154.3 MB.
+Total: 7.838700 ms (FindLiveObjects: 0.721200 ms CreateObjectMapping: 0.979600 ms MarkObjects: 5.435700 ms  DeleteObjects: 0.701300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.402 seconds
+Refreshing native plugins compatible for Editor in 14.46 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 29.820 seconds
+Domain Reload Profiling: 36211ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (5955ms)
+		LoadAssemblies (6044ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (29821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (262ms)
+			ProcessInitializeOnLoadAttributes (913ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 9.14 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8025.
+Memory consumption went from 272.5 MB to 270.3 MB.
+Total: 6.358200 ms (FindLiveObjects: 0.618600 ms CreateObjectMapping: 0.673000 ms MarkObjects: 4.133800 ms  DeleteObjects: 0.931800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.118 seconds
+Refreshing native plugins compatible for Editor in 9.95 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.159 seconds
+Domain Reload Profiling: 4268ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (615ms)
+		LoadAssemblies (794ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3160ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (1204ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.62 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8042.
+Memory consumption went from 274.4 MB to 272.3 MB.
+Total: 11.441500 ms (FindLiveObjects: 1.686700 ms CreateObjectMapping: 1.327400 ms MarkObjects: 7.419700 ms  DeleteObjects: 1.005900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1606.750288 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5f4612b1a44a4b6d4d173d0caafc82') in 0.131138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.796282 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(20e62ca413c9c894689f80aff31ed1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioManager.cs using Guid(20e62ca413c9c894689f80aff31ed1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540ed24bfaeb4524716cb8eb75518e16') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.941372 seconds.
+  path: Assets/Scripts/CameraSwichScript.cs
+  artifactKey: Guid(e800a9eba9c196c4595d28afe3b76f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraSwichScript.cs using Guid(e800a9eba9c196c4595d28afe3b76f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42b208feee8870b0c119faa0a8490cb') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.382325 seconds.
+  path: Assets/Scripts/DogAudioManager1.cs
+  artifactKey: Guid(7bf992d7e1224af45aaa243820b671bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DogAudioManager1.cs using Guid(7bf992d7e1224af45aaa243820b671bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e671474d1a11c50bd8f5998307eb1a6') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.017175 seconds.
+  path: Assets/Scripts/PlayerScript.cs
+  artifactKey: Guid(0cb816d4324697c41bd8f41f8e7e8127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript.cs using Guid(0cb816d4324697c41bd8f41f8e7e8127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fffb336c54e52d73a60956666d6bc85') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.080726 seconds.
+  path: Assets/Scripts/Objects.cs
+  artifactKey: Guid(1e21df40dd787564aa0996c696793101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Objects.cs using Guid(1e21df40dd787564aa0996c696793101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2dd910839bb5ea34aa73784d1482ec') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.843545 seconds.
+  path: Assets/Scripts/LightedCircleTrigger.cs
+  artifactKey: Guid(a0143c504ca2102488ead8ecd05369a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightedCircleTrigger.cs using Guid(a0143c504ca2102488ead8ecd05369a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bfc9981897c11ccc8d33d6d09f26c0') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.715838 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(ed2d39eae860d2046add1cde01e3d5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(ed2d39eae860d2046add1cde01e3d5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31dd1dda3f36a504b0b4f4b4b6b970b') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.575795 seconds.
+  path: Assets/Scripts/FootStepsSound.cs
+  artifactKey: Guid(4a196dd00b0acd14b9374a387cf7035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FootStepsSound.cs using Guid(4a196dd00b0acd14b9374a387cf7035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a435b5bc9ba252493c9046098bb4efb0') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.036633 seconds.
+  path: Assets/AtmosphericHouse/Scripts/DisableAtStart.cs
+  artifactKey: Guid(aee4bd6089bcf764eb0c38f80eb11656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/DisableAtStart.cs using Guid(aee4bd6089bcf764eb0c38f80eb11656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a031818916f29de79b929f77d63ff56') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.157738 seconds.
+  path: Assets/AtmosphericHouse/Scripts/DelayedActionManager.cs
+  artifactKey: Guid(4df8944f07130c94e93b384f64113551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/DelayedActionManager.cs using Guid(4df8944f07130c94e93b384f64113551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1a07529c26c1ba58b22c92296e4787') in 0.000498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.581497 seconds.
+  path: Assets/AtmosphericHouse/Scripts/DVDObject.cs
+  artifactKey: Guid(7e161e62e69424a48b0de9055332daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/DVDObject.cs using Guid(7e161e62e69424a48b0de9055332daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1054a88ada0d68bb1d8b7941ad6b3281') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.273419 seconds.
+  path: Assets/AtmosphericHouse/Scripts/High_func.cs
+  artifactKey: Guid(62722b95b2e78674aa9e0cc36dae6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/High_func.cs using Guid(62722b95b2e78674aa9e0cc36dae6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4510ab006c8466df0d44fe00d2e5504a') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.571670 seconds.
+  path: Assets/AtmosphericHouse/Scripts/IntroVideoPlayer.cs
+  artifactKey: Guid(5a39c16ae6788d64099fd4eee5c0c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/IntroVideoPlayer.cs using Guid(5a39c16ae6788d64099fd4eee5c0c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6941802c365dcb0d800d41f2f9883cc2') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.269206 seconds.
+  path: Assets/AtmosphericHouse/Scripts/KeyObject.cs
+  artifactKey: Guid(729c3f9aa506795499e1656add118ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/KeyObject.cs using Guid(729c3f9aa506795499e1656add118ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edccac1f162d2d1e228cb8e8ff2dc8c') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.586749 seconds.
+  path: Assets/AtmosphericHouse/Scripts/LightOptimize.cs
+  artifactKey: Guid(0fddc6619ec4ff84e81b0106b082fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/LightOptimize.cs using Guid(0fddc6619ec4ff84e81b0106b082fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047aad3fdff803b42e845b7fdf2c1f64') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.100413 seconds.
+  path: Assets/AtmosphericHouse/Scripts/SimplePlayerUse.cs
+  artifactKey: Guid(b9aa1671037aac84a80ac1cb6bd01d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/SimplePlayerUse.cs using Guid(b9aa1671037aac84a80ac1cb6bd01d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5780965e7fbfdc57372a027254a93c') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.277192 seconds.
+  path: Assets/AtmosphericHouse/Scripts/SimplePlayerController.cs
+  artifactKey: Guid(a3217e2c231ac3241a63ef6d866a39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/SimplePlayerController.cs using Guid(a3217e2c231ac3241a63ef6d866a39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9268a1297e589b82df9ec6c50cc04942') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.488173 seconds.
+  path: Assets/AtmosphericHouse/Scripts/BoxObject.cs
+  artifactKey: Guid(dec837cf1ff8b114dbe225d96716a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/BoxObject.cs using Guid(dec837cf1ff8b114dbe225d96716a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2bed41526f8c3ed18c2bcb9570f9d1') in 0.001021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.017593 seconds.
+  path: Assets/AtmosphericHouse/Scripts/AudioManagerScene1.cs
+  artifactKey: Guid(e3628441ede15084ea558bad3740afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/AudioManagerScene1.cs using Guid(e3628441ede15084ea558bad3740afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171e1c3d37b2555f80ce56fc78ab8ae5') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.729305 seconds.
+  path: Assets/Scripts/triggerConeScript.cs
+  artifactKey: Guid(b7bf263b5d61eb74a8950a50487dec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/triggerConeScript.cs using Guid(b7bf263b5d61eb74a8950a50487dec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbc7d388779d26997fc1143077f887b') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.941608 seconds.
+  path: Assets/Scripts/SwitchCamera.cs
+  artifactKey: Guid(911ddd0b018978046a2c2a4a9a2da919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchCamera.cs using Guid(911ddd0b018978046a2c2a4a9a2da919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fb29e75058c9e2c1281cd6375aca52') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.326130 seconds.
+  path: Assets/Scripts/SceneOptimizer.cs
+  artifactKey: Guid(32902c49fe8d71e4d9d726e500e1ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneOptimizer.cs using Guid(32902c49fe8d71e4d9d726e500e1ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f417e0daf72abb321857ba1ea1ef1a2') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.155253 seconds.
+  path: Assets/Scripts/RotateHealthBar.cs
+  artifactKey: Guid(e785f51f29d4e0b45b25334e50d262c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotateHealthBar.cs using Guid(e785f51f29d4e0b45b25334e50d262c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3283fd37b492a8fce9ebeace3e4fd52e') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.779835 seconds.
+  path: Assets/Scripts/Rifle.cs
+  artifactKey: Guid(b884806ccff75b24ea57123a8f285bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Rifle.cs using Guid(b884806ccff75b24ea57123a8f285bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c96ea6786283503587a4b90167e934') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.748648 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(ea5c63a21ffc489458b51c621081fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(ea5c63a21ffc489458b51c621081fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1cbcbb2151755d504f823275dd8ad4') in 0.000944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.010980 seconds.
+  path: Assets/Scripts/FindScript.cs
+  artifactKey: Guid(19a78d25d9afe514e9e104a66ee7d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FindScript.cs using Guid(19a78d25d9afe514e9e104a66ee7d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f57a423acb6aef6868adb62f6cd27') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.213961 seconds.
+  path: Assets/Scripts/CameraSwichScriptDogzone4.cs
+  artifactKey: Guid(c908350bca2d92d4db9f616d3ee51d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraSwichScriptDogzone4.cs using Guid(c908350bca2d92d4db9f616d3ee51d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce2788ab8022fd35f649e3e91884d9e') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.244422 seconds.
+  path: Assets/Scripts/ReSCE.cs
+  artifactKey: Guid(120dd175e62e3284f90817fda9e39267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ReSCE.cs using Guid(120dd175e62e3284f90817fda9e39267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1da4fd1d5ac9f03b925981c61dc34d5') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.936338 seconds.
+  path: Assets/Scripts/Pistol.cs
+  artifactKey: Guid(dc399301eb9338345b79ba16f8461458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pistol.cs using Guid(dc399301eb9338345b79ba16f8461458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9405100f878c5ca0a9ab97e5445755') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.527734 seconds.
+  path: Assets/Scripts/CameraSwichScriptDog.cs
+  artifactKey: Guid(347890d09ad148a4bb9b59f1fdad4a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraSwichScriptDog.cs using Guid(347890d09ad148a4bb9b59f1fdad4a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303772b975c4a7678f33c21b4042f3b4') in 0.000901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.964173 seconds.
+  path: Assets/AtmosphericHouse/Scripts/Highlight.cs
+  artifactKey: Guid(0355a6a17e8c6fa4d87d5dbdab8b9164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/Highlight.cs using Guid(0355a6a17e8c6fa4d87d5dbdab8b9164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f0739ce429ce2fcda448f9334174b5') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.812078 seconds.
+  path: Assets/AtmosphericHouse/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(fd96007805ba71d4796326c5450638c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/NewBehaviourScript.cs using Guid(fd96007805ba71d4796326c5450638c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd47c4470870fc5c3cded8373307531c') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.048 seconds
+Refreshing native plugins compatible for Editor in 24.16 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.497 seconds
+Domain Reload Profiling: 19533ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (5615ms)
+		LoadAssemblies (5662ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (13497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (360ms)
+			ProcessInitializeOnLoadAttributes (1089ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Script is not up to date after domain reload: guid(fa0667b3e98e0f548829f12197aac211) path("Assets/AtmosphericHouse/Scripts/AudioListenerChecker.cs") state(2)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 14.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8099.
+Memory consumption went from 276.7 MB to 274.6 MB.
+Total: 14.115400 ms (FindLiveObjects: 1.188200 ms CreateObjectMapping: 3.394200 ms MarkObjects: 8.182000 ms  DeleteObjects: 1.349200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.389363 seconds.
+  path: Assets/AtmosphericHouse/Scripts/AudioListenerChecker.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/AudioListenerChecker.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315e671e313d7c72544fce81b0ce3f01') in 0.025723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.680893 seconds.
+  path: Assets/AtmosphericHouse/Scripts/AudioListenerChecker.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/AudioListenerChecker.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dc65776ca8f3cd96704c3f855b19d4') in 0.001184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.263854 seconds.
+  path: Assets/AtmosphericHouse/Scripts/test.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/test.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70750ab8047a4bae3bac2c6a1107b80b') in 0.001784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.539 seconds
+Refreshing native plugins compatible for Editor in 15.01 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.643 seconds
+Domain Reload Profiling: 8169ms
+	BeginReloadAssembly (641ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (253ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (312ms)
+	initialDomainReloadingComplete (246ms)
+	LoadAllAssembliesAndSetupDomain (1261ms)
+		LoadAssemblies (1260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (197ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (5644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (704ms)
+			ProcessInitializeOnLoadAttributes (1454ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 16.64 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8117.
+Memory consumption went from 278.7 MB to 276.6 MB.
+Total: 11.200400 ms (FindLiveObjects: 1.082400 ms CreateObjectMapping: 1.121500 ms MarkObjects: 7.820300 ms  DeleteObjects: 1.174800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.793538 seconds.
+  path: Assets/AtmosphericHouse/Scripts/test2.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/test2.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7381a1561ec1b1ee5fbb9c913d45bc4a') in 0.002486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.638 seconds
+Refreshing native plugins compatible for Editor in 16.91 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.672 seconds
+Domain Reload Profiling: 7262ms
+	BeginReloadAssembly (782ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (454ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (1450ms)
+		LoadAssemblies (1425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (4673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2170ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (438ms)
+			ProcessInitializeOnLoadAttributes (1486ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 19.08 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8134.
+Memory consumption went from 280.6 MB to 278.5 MB.
+Total: 13.231300 ms (FindLiveObjects: 0.943700 ms CreateObjectMapping: 1.005700 ms MarkObjects: 9.501100 ms  DeleteObjects: 1.778700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.124803 seconds.
+  path: Assets/AtmosphericHouse/Scripts/test2.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/test2.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ceac2f102b963503478d3b459d126') in 0.005751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.321024 seconds.
+  path: Assets/AtmosphericHouse/Scripts/test2.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/test2.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4127a50fa10fdd9140b05176cc777fd1') in 0.001767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.063 seconds
+Refreshing native plugins compatible for Editor in 13.48 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.959 seconds
+Domain Reload Profiling: 4011ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (660ms)
+		LoadAssemblies (700ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (335ms)
+			ProcessInitializeOnLoadAttributes (1018ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.28 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8151.
+Memory consumption went from 282.5 MB to 280.4 MB.
+Total: 7.078400 ms (FindLiveObjects: 0.790700 ms CreateObjectMapping: 0.857200 ms MarkObjects: 4.540300 ms  DeleteObjects: 0.889200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.722587 seconds.
+  path: Assets/AtmosphericHouse/Scripts/test2.cs
+  artifactKey: Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scripts/test2.cs using Guid(fa0667b3e98e0f548829f12197aac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eba04cf73771b9856c31be4685775a') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.849 seconds
+Domain Reload Profiling: 3917ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (726ms)
+		LoadAssemblies (796ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (373ms)
+			ProcessInitializeOnLoadAttributes (988ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 17.11 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8168.
+Memory consumption went from 284.5 MB to 282.4 MB.
+Total: 9.089600 ms (FindLiveObjects: 0.853400 ms CreateObjectMapping: 1.016600 ms MarkObjects: 6.052100 ms  DeleteObjects: 1.166300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.188 seconds
+Refreshing native plugins compatible for Editor in 11.10 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.446 seconds
+Domain Reload Profiling: 4626ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (841ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1883ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (336ms)
+			ProcessInitializeOnLoadAttributes (1308ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 14.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8185.
+Memory consumption went from 286.4 MB to 284.3 MB.
+Total: 9.789900 ms (FindLiveObjects: 0.969400 ms CreateObjectMapping: 1.312700 ms MarkObjects: 6.355900 ms  DeleteObjects: 1.150500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.085 seconds
+Refreshing native plugins compatible for Editor in 10.55 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.152 seconds
+Domain Reload Profiling: 4230ms
+	BeginReloadAssembly (372ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (753ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1731ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (1204ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 13.05 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8202.
+Memory consumption went from 288.3 MB to 286.2 MB.
+Total: 9.314200 ms (FindLiveObjects: 0.983200 ms CreateObjectMapping: 1.005500 ms MarkObjects: 6.479200 ms  DeleteObjects: 0.845200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.109 seconds
+Refreshing native plugins compatible for Editor in 10.03 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.048 seconds
+Domain Reload Profiling: 4149ms
+	BeginReloadAssembly (435ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (829ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3049ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (1161ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 16.65 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8219.
+Memory consumption went from 290.3 MB to 288.2 MB.
+Total: 8.241600 ms (FindLiveObjects: 0.946200 ms CreateObjectMapping: 1.068900 ms MarkObjects: 5.230300 ms  DeleteObjects: 0.995300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 9.29 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.026 seconds
+Domain Reload Profiling: 3908ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3027ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (326ms)
+			ProcessInitializeOnLoadAttributes (1138ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 14.57 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8236.
+Memory consumption went from 292.2 MB to 290.1 MB.
+Total: 8.962400 ms (FindLiveObjects: 0.940900 ms CreateObjectMapping: 1.229100 ms MarkObjects: 5.864500 ms  DeleteObjects: 0.926600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211.026774 seconds.
+  path: Assets/Scenes/Mission 4.unity
+  artifactKey: Guid(782f1cb7aafe83540be8e318f12196c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mission 4.unity using Guid(782f1cb7aafe83540be8e318f12196c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafb27558e1c96cf6067362309d78d8') in 0.002392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.293 seconds
+Refreshing native plugins compatible for Editor in 12.80 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.886 seconds
+Domain Reload Profiling: 5164ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (892ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (368ms)
+			ProcessInitializeOnLoadAttributes (1314ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 20.85 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8253.
+Memory consumption went from 294.2 MB to 292.1 MB.
+Total: 9.117300 ms (FindLiveObjects: 0.842100 ms CreateObjectMapping: 2.451400 ms MarkObjects: 4.881900 ms  DeleteObjects: 0.940800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.389291 seconds.
+  path: Assets/Scenes/Mission 1.unity
+  artifactKey: Guid(39be1c881e11d7a49a8163c4c490e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mission 1.unity using Guid(39be1c881e11d7a49a8163c4c490e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa04aed0011727329f97e9f84cf4d1e4') in 0.002190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.350422 seconds.
+  path: Assets/Scenes/Mission 2.unity
+  artifactKey: Guid(9dd46b493c1396a42b3cf2aa11fde485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mission 2.unity using Guid(9dd46b493c1396a42b3cf2aa11fde485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebc471c501f7397820bc3ebf6a4c7e8') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.080342 seconds.
+  path: Assets/Scenes/Mission 1.unity
+  artifactKey: Guid(39be1c881e11d7a49a8163c4c490e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mission 1.unity using Guid(39be1c881e11d7a49a8163c4c490e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad6ba4a3d2a411d96500ac3f4eac48') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.700406 seconds.
+  path: Assets/Scenes/Mission 2.unity
+  artifactKey: Guid(9dd46b493c1396a42b3cf2aa11fde485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mission 2.unity using Guid(9dd46b493c1396a42b3cf2aa11fde485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0b30d999634a2c572d6c1ce44d14a2') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.322 seconds
+Refreshing native plugins compatible for Editor in 10.99 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\MasterGameancienTeam\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <64861216782042de93237b5c061bff1b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.397 seconds
+Domain Reload Profiling: 9705ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (912ms)
+		LoadAssemblies (1003ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (8398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (862ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 10.26 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8270.
+Memory consumption went from 296.1 MB to 294.0 MB.
+Total: 7.115000 ms (FindLiveObjects: 0.878900 ms CreateObjectMapping: 0.804600 ms MarkObjects: 4.275600 ms  DeleteObjects: 1.154900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 11.41 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.1 MB). Loaded Objects now: 8270.
+Memory consumption went from 185.5 MB to 183.4 MB.
+Total: 6.914300 ms (FindLiveObjects: 0.895500 ms CreateObjectMapping: 0.912000 ms MarkObjects: 4.385800 ms  DeleteObjects: 0.720100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1305.129302 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/BuildEX7_windows_Emission.tga
+  artifactKey: Guid(30d57b9b9c38780418ba55fb2fdd5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/BuildEX7_windows_Emission.tga using Guid(30d57b9b9c38780418ba55fb2fdd5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaffe9a176f7801e5c76f29690ed996') in 0.098986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/SoundMisson3/Mission3.mp3
+  artifactKey: Guid(e92cf21b087a1ac48bb65c61c327d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SoundMisson3/Mission3.mp3 using Guid(e92cf21b087a1ac48bb65c61c327d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80feb121c24db73d63790e93ff3a3c9') in 0.064147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/Props2_Emission.tga.tga
+  artifactKey: Guid(095aa876505068c459fc3f8f50049164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/Props2_Emission.tga.tga using Guid(095aa876505068c459fc3f8f50049164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85fd4f6d7a553b694b97f35c3acfdc1') in 0.023092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QA_PoliceStation/Models/Materials/TV_emission_mtl.mat
+  artifactKey: Guid(ac9544dc0a96a1b4c986d4452f2e2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Models/Materials/TV_emission_mtl.mat using Guid(ac9544dc0a96a1b4c986d4452f2e2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f38b4ee9e4b94f8d2878de05b005311') in 0.187729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/TrafficLights2_Emission.tga
+  artifactKey: Guid(14d4998dbe29e8a41a7c33a200b8a3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/TrafficLights2_Emission.tga using Guid(14d4998dbe29e8a41a7c33a200b8a3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4861535fd88455b7179fc263ccaf7325') in 0.040864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/FoodCart_Emission.tga
+  artifactKey: Guid(297f8148b2f42894787dd5a8aa7f38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/FoodCart_Emission.tga using Guid(297f8148b2f42894787dd5a8aa7f38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9b5d4a72e37775b6734631fbbed0b') in 0.036950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/TrafficLights_Emission.tga
+  artifactKey: Guid(ffac241f0f30a964084b7a97a30e6bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/TrafficLights_Emission.tga using Guid(ffac241f0f30a964084b7a97a30e6bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f219932a16a53a3afa0ebab1f737b828') in 0.031587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/RoofProps_Emission.tga
+  artifactKey: Guid(b755f07b1051e33478d7e3029d43ca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/RoofProps_Emission.tga using Guid(b755f07b1051e33478d7e3029d43ca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c636b648192dc3d79dbd1a429c259c05') in 0.024250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.405487 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/billboard_Emission.tga
+  artifactKey: Guid(bc30cbf5f8e6c01469aff33f8b265b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/billboard_Emission.tga using Guid(bc30cbf5f8e6c01469aff33f8b265b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec415e905a0cb67f8197c1115b6502d') in 0.029071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/Build4_Emission.tga
+  artifactKey: Guid(461d17945c02c2c4783520ef632dac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/Build4_Emission.tga using Guid(461d17945c02c2c4783520ef632dac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8556141df55dad2ad021b33f38df1f') in 0.030211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/BuildEX2_Emission.tga.tga
+  artifactKey: Guid(8fe0edc94f0aae145b1a15e665fb87a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/BuildEX2_Emission.tga.tga using Guid(8fe0edc94f0aae145b1a15e665fb87a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0321f0400e7a5005e5f94fedc619b5') in 0.026086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Textures/Build_Emission.tga
+  artifactKey: Guid(77ac7e7a3ad26034fbf46ea873598a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Textures/Build_Emission.tga using Guid(77ac7e7a3ad26034fbf46ea873598a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2442dcfd03dd2b5ebd53a47f2463f') in 0.075075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.053113 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat
+  artifactKey: Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat using Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea93a5b25d6b6a2734f48e5e10b058d0') in 0.057353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AtmosphericHouse/Prefabs/Lights/AreaLight_window_single_prefab.prefab
+  artifactKey: Guid(97443dd86fc629e46b32fda9dcc4edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Prefabs/Lights/AreaLight_window_single_prefab.prefab using Guid(97443dd86fc629e46b32fda9dcc4edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9ce93bca99748bb0207ff897b04d2') in 0.009368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AtmosphericHouse/Prefabs/Lights/AreaLight_door_double_prefab.prefab
+  artifactKey: Guid(8676252144beec24091141f339c8855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Prefabs/Lights/AreaLight_door_double_prefab.prefab using Guid(8676252144beec24091141f339c8855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6accf27006f6f5097b29d76f24037e') in 0.002515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HealthBar/1/PS-ProgressBar/Sprites/bar-lightedge.png
+  artifactKey: Guid(bd17a9583a3fdbd439f0ad89f144f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthBar/1/PS-ProgressBar/Sprites/bar-lightedge.png using Guid(bd17a9583a3fdbd439f0ad89f144f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3feee5b5838c605d37ca8550ef2728') in 0.034796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(172222c7a0ce1d240b8df7ef09126f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLight.prefab using Guid(172222c7a0ce1d240b8df7ef09126f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e4537eb42c3bb5741627f07e877ea6') in 0.052224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightB.prefab
+  artifactKey: Guid(f2c38298672e8214db70850b1038dac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightB.prefab using Guid(f2c38298672e8214db70850b1038dac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55558c73616b2cb26bbc357188d1668') in 0.031378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightC_NoLight.prefab
+  artifactKey: Guid(695d131b26efd404b8e2672a14383df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightC_NoLight.prefab using Guid(695d131b26efd404b8e2672a14383df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7630dd633edfe3e9548be9957d3af4f9') in 0.030256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/8FastCars/Materials/Diesel_lights.mat
+  artifactKey: Guid(247c6be7dd0e9b846997527f9747aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Diesel_lights.mat using Guid(247c6be7dd0e9b846997527f9747aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d51ca3549ff8d3c86187ddeb944a78') in 0.037646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightC.prefab
+  artifactKey: Guid(7b4740256b070c0498cccef602823d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightC.prefab using Guid(7b4740256b070c0498cccef602823d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04429ceebaa74a9ef84ed97f5410f507') in 0.030155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightB_NoLight.prefab
+  artifactKey: Guid(0f5ef54e040325e43acda976637edab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightB_NoLight.prefab using Guid(0f5ef54e040325e43acda976637edab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89179c8ea215a97a8a8cc98e67d1991') in 0.035094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightB_OFF.prefab
+  artifactKey: Guid(789a30ca37bb0b3408fd6d01d3afc3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightB_OFF.prefab using Guid(789a30ca37bb0b3408fd6d01d3afc3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5263b077552d4e1019b9ba4dc77be8') in 0.052389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QA_Office/Prefabs/CeilingLightA.prefab
+  artifactKey: Guid(288249632c2652f438ad3fbbe113472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Prefabs/CeilingLightA.prefab using Guid(288249632c2652f438ad3fbbe113472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dad7d0d5336dec5edd9bb42da236d6b') in 0.034722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QA_Office/Models/CeilingLight.FBX
+  artifactKey: Guid(225fd122f3b3d384b9bc0b6f8102be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Models/CeilingLight.FBX using Guid(225fd122f3b3d384b9bc0b6f8102be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb50438ed568023c249f419d5bf938eb') in 0.059093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.106515 seconds.
+  path: Assets/ReversedAssets/City Builder Urban/3D/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(c1cf8506f04ef2c4a88b64b6c4202eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReversedAssets/City Builder Urban/3D/Presets/Defaults/DirectionalLight_Default.preset using Guid(c1cf8506f04ef2c4a88b64b6c4202eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd848b260e35717b426f763909a9fdd0a') in 0.002926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.797074 seconds.
+  path: Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Office/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4a358ae06669e0e4b8ab243aa6822371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Office/Lightmap-0_comp_dir.png using Guid(4a358ae06669e0e4b8ab243aa6822371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a624d1bcce13537e37e57cae0984680') in 0.027591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LeartesStudios/The_Rally_Point/LightingData/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ec400f6d143e31148b74ede41c0b1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeartesStudios/The_Rally_Point/LightingData/Lightmap-0_comp_dir.png using Guid(ec400f6d143e31148b74ede41c0b1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe00a69db7fc9bb4546bbb70d563b047') in 0.032051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(0950a16b8db3b7f49a04158e20762ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_dir.png using Guid(0950a16b8db3b7f49a04158e20762ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643cea845d4d384a0bb693550a21cf5f') in 0.112425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1a2415912b8775e458d5b5b7b9c75b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-0_comp_dir.png using Guid(1a2415912b8775e458d5b5b7b9c75b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fecbcee81843960689b00d917e9c6') in 0.079552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/QA_Office/Demo scene/Showcase_props/Lightmap-0_comp_light.exr
+  artifactKey: Guid(05bee9d49e7b7da4a91aa2a20e682695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Demo scene/Showcase_props/Lightmap-0_comp_light.exr using Guid(05bee9d49e7b7da4a91aa2a20e682695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836a6c847ede3da1e5af37cf94fd66b4') in 0.042056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo_3/Lightmap-0_comp_dir.png
+  artifactKey: Guid(89056eaca82ff9f4f808cd46f5428733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo_3/Lightmap-0_comp_dir.png using Guid(89056eaca82ff9f4f808cd46f5428733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e2abbf3acf0f1aa8f25d0d04dcd47') in 0.101153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(75dd0f092239c7047ade1941a2e74594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_shadowmask.png using Guid(75dd0f092239c7047ade1941a2e74594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fc53043a5aac3f277dbc70697ab4e6') in 0.248642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-1_comp_dir.png
+  artifactKey: Guid(0062cb2ada83d5f4ba973e6324ce59d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-1_comp_dir.png using Guid(0062cb2ada83d5f4ba973e6324ce59d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df5d21c8e345c80db1b2f313abe3128') in 0.092023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c1fe41d4a7e338c45b2e1ccd18ece946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scenes/House_clean_day/Lightmap-1_comp_light.exr using Guid(c1fe41d4a7e338c45b2e1ccd18ece946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aba702fa5c351693949cc484c4fa19') in 0.199276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo_1/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(26f68a8765bb4914990a6d283e027eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo_1/Lightmap-0_comp_shadowmask.png using Guid(26f68a8765bb4914990a6d283e027eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b7195291790614f26233e989ee60c2') in 0.112451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LeartesStudios/The_Rally_Point/LightingData/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f94add5c2be41c24ea8c635306ebe066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeartesStudios/The_Rally_Point/LightingData/Lightmap-1_comp_light.exr using Guid(f94add5c2be41c24ea8c635306ebe066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2438401cfa6b2ec2203a5daeb4c76d') in 0.055866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Hall/Lightmap-0_comp_dir.png
+  artifactKey: Guid(cd87fa737d796b147a7e5c092c9bc061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Hall/Lightmap-0_comp_dir.png using Guid(cd87fa737d796b147a7e5c092c9bc061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068cca5b30606ff199c9f2e36f87c861') in 0.046877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AtmosphericHouse/Scenes/House_worn_night/Lightmap-0_comp_dir.png
+  artifactKey: Guid(7cd7db4b7ada48343a59c276982dc87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scenes/House_worn_night/Lightmap-0_comp_dir.png using Guid(7cd7db4b7ada48343a59c276982dc87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be66717b8bfbd7fee570484be7c61845') in 0.084476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo_1/Lightmap-0_comp_light.exr
+  artifactKey: Guid(77fd9440b353f414998cb458e5294fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo_1/Lightmap-0_comp_light.exr using Guid(77fd9440b353f414998cb458e5294fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd74dc27a08cbd373ce3ffd2bdca5f9') in 0.053660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo_2/Lightmap-1_comp_light.exr
+  artifactKey: Guid(ca8c8a2cb594fe6428dd3800ab170dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo_2/Lightmap-1_comp_light.exr using Guid(ca8c8a2cb594fe6428dd3800ab170dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ee94e4817f908ee978d5e10c04f5f') in 0.048238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Hall/Lightmap-1_comp_light.exr
+  artifactKey: Guid(607e2d4c102436a438f41203242adf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Hall/Lightmap-1_comp_light.exr using Guid(607e2d4c102436a438f41203242adf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106e91693ae9a16781f78952e88eda4a') in 0.050472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Office/Lightmap-0_comp_light.exr
+  artifactKey: Guid(e5b9948c998d883469be756d8241d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Office/Demo scene/QA_Office_demoScene_Level_01_Office/Lightmap-0_comp_light.exr using Guid(e5b9948c998d883469be756d8241d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe856e890f83f85ac177064ae9ec65f7') in 0.053758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AtmosphericHouse/Scenes/House_worn_night/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8308040b37d47fc4da13e5977b1a4862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmosphericHouse/Scenes/House_worn_night/Lightmap-1_comp_light.exr using Guid(8308040b37d47fc4da13e5977b1a4862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d496a9c4e505e6a7fb4de6f8f4f72ed') in 0.169940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo_2/Lightmap-1_comp_dir.png
+  artifactKey: Guid(f783648a611404848b7fdea19ab6a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo_2/Lightmap-1_comp_dir.png using Guid(f783648a611404848b7fdea19ab6a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfc72a69cfbe826270f4189b0b4898e') in 0.043398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(de769148bca199642b30153d672af4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_PoliceStation/Demoscene/Demo/Lightmap-0_comp_light.exr using Guid(de769148bca199642b30153d672af4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7514bfe014b00768cff96120123084e') in 0.088457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.225 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MasterGame
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.232 seconds
+Domain Reload Profiling: 4449ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (844ms)
+		LoadAssemblies (920ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (320ms)
+			ProcessInitializeOnLoadAttributes (1033ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 16.60 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (2.1 MB). Loaded Objects now: 8299.
+Memory consumption went from 298.4 MB to 296.3 MB.
+Total: 13.241500 ms (FindLiveObjects: 0.841600 ms CreateObjectMapping: 0.863500 ms MarkObjects: 9.332500 ms  DeleteObjects: 2.202700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.744737 seconds.
+  path: Assets/music.prefab
+  artifactKey: Guid(2e9404b60eca3e145b92cf3e6b27c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music.prefab using Guid(2e9404b60eca3e145b92cf3e6b27c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f5fc08f9ed82d9ca3f04a0b84c5fe6') in 0.026173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 33.120091 seconds.
+  path: Assets/Scenes/Misson 3.unity
+  artifactKey: Guid(86cf88b5145a1894baae15ced7286e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Misson 3.unity using Guid(86cf88b5145a1894baae15ced7286e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1193a6761851c89069004e003d7e2918') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 17.51 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.1 MB). Loaded Objects now: 8299.
+Memory consumption went from 184.2 MB to 182.2 MB.
+Total: 10.880300 ms (FindLiveObjects: 0.776300 ms CreateObjectMapping: 0.817100 ms MarkObjects: 8.437400 ms  DeleteObjects: 0.847500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
